@@ -10,6 +10,7 @@ jobs:
       CODENAME: 'laurel_sprout'
       BUILD_LUNCH: 'omni_laurel_sprout-userdebug'
       TEST_BUILD: 'true'
+      EXTRA_CMD: 'rm -rf hardware/qcom/bootctrl'
     working_directory: /home/builder/pitchblack # '/home/builder/' will also work just fine
     steps:
       - checkout
